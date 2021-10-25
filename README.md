@@ -20,12 +20,12 @@ R package hallmarks allows to perform over-representative analysis on a vector o
 
 ### compute of over-representative analysis on custum vector of genes
 
-> res<-computehallmarks(custom)
+> res<-computehallmarks(custom,q=0.05)
 
 
 ### plot barplot of the analysis
 
-> plothallmarks(res, size=14, label=5, title="Enriched hallmarks")
+> plothallmarks(res, font=14, label=5, title="Enriched hallmarks")
 
 ![hallmarks](https://github.com/cdesterke/hallmarks/blob/main/hallmarks.png)
 
